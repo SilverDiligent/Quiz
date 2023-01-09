@@ -1,0 +1,29 @@
+#quiz-form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#question1, #question2 {
+  display: none;
+}
+
+#question1 {
+  display: block;
+}
+
+p {
+  font-size: 18px;
+}
+
+input[type="radio"] {
+  margin: 0 10px;
+}
+
+button[type="submit"] {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
